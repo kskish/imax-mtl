@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --page-background: #101116;
+  --card-background: #1b1e26;
+  --card-border: #2a2e38;
+  --text: #f4f5f7;
+  --muted-text: #aeb4c0;
+  --accent: #ff5b61;
+  --accent-dark: #351f25;
+}
+
+body {
+  margin: 0;
+  background: var(--page-background);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.page-shell {
+  width: min(1250px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.theatre-name {
+  margin: 0;
+  color: var(--muted-text);
+  font-size: 1.05rem;
+}
+
+.updated-at {
+  margin: 8px 0 0;
+  color: #858c99;
+  font-size: 0.85rem;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.day-section {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  background: var(--card-background);
+}
+
+.day-heading {
+  margin: 0;
+  padding: 15px 16px 12px;
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-card {
+  display: flex;
+  gap: 12px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.movie-card:last-child {
+  border-bottom: 0;
+}
+
+.poster {
+  width: 52px;
+  height: 76px;
+  flex: 0 0 52px;
+  object-fit: cover;
+  border-radius: 5px;
+  background: #292d36;
+}
+
+.movie-details {
+  min-width: 0;
+  flex: 1;
+}
+
+.movie-title {
+  margin: 1px 0 4px;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.movie-meta {
+  margin: 0 0 10px;
+  color: var(--muted-text);
+  font-size: 0.78rem;
+}
+
+.showtimes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.showtime {
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 14px;
+  background: #292e39;
+  color: var(--text);
+  font-size: 0.8rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.showtime:hover,
+.showtime:focus-visible {
+  background: var(--accent);
+  color: #fff;
+}
+
+.empty-state {
+  grid-column: 1 / -1;
+  padding: 24px;
+  text-align: center;
+  color: var(--muted-text);
+}
+
+@media (max-width: 650px) {
+  .page-shell {
+    width: min(100% - 20px, 500px);
+    padding-top: 20px;
+  }
+
+  #app {
+    grid-template-columns: 1fr;
+  }
+}

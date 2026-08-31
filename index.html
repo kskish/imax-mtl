@@ -4,116 +4,165 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IMAX Showtimes</title>
-
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-
-    section {
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      margin: 1rem 0;
-      padding: 1rem;
-    }
-
-    a {
-      color: #0066cc;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>IMAX Showtimes</h1>
-  <div id="app"></div>
+  <main class="page-shell">
+    <header class="page-header">
+      <h1>IMAX Showtimes</h1>
+      <p id="theatre-name" class="theatre-name">Loading theatre...</p>
+      <p id="updated-at" class="updated-at"></p>
+    </header>
 
-<script>
-  function formatTime(dateTime) {
-    return new Date(dateTime).toLocaleTimeString([], {
+    <div id="app" aria-live="polite"></div>
+  </main>
+
+  <script>
+    const dateFormatter = new Intl.DateTimeFormat(undefined, {
+      weekday: "short",
+      month: "short",
+      day: "numeric"
+    });
+
+    const timeFormatter = new Intl.DateTimeFormat(undefined, {
       hour: "numeric",
       minute: "2-digit"
     });
-  }
 
-  async function loadShowtimes() {
-    const response = await fetch("showtimes.json");
-
-    if (!response.ok) {
-      throw new Error(`Could not load JSON: ${response.status}`);
+    function formatDate(dateString) {
+      // Adding T12:00 avoids a date moving backward in some time zones.
+      return dateFormatter.format(new Date(`${dateString}T12:00:00`));
     }
 
-    const data = await response.json();
+    function formatTime(dateTime) {
+      return timeFormatter.format(new Date(dateTime));
+    }
 
-    const app = document.getElementById("app");
-    app.innerHTML = "";
+    function createElement(tagName, className, text = "") {
+      const element = document.createElement(tagName);
+      if (className) element.className = className;
+      if (text) element.textContent = text;
+      return element;
+    }
 
-    const updated = document.createElement("p");
-    updated.textContent =
-      `Last updated: ${new Date(data.updatedAt).toLocaleString()}`;
-    app.appendChild(updated);
+    function groupMoviesByDate(movies) {
+      const dates = new Map();
 
-    data.theatres.forEach(theatre => {
-      const theatreHeading = document.createElement("h2");
-      theatreHeading.textContent = theatre.name;
-      app.appendChild(theatreHeading);
+      movies.forEach(movie => {
+        movie.sessions.forEach(session => {
+          if (!dates.has(session.date)) {
+            dates.set(session.date, []);
+          }
 
-      if (theatre.movies.length === 0) {
-        const noShowtimes = document.createElement("p");
-        noShowtimes.textContent = "No IMAX showtimes found.";
-        app.appendChild(noShowtimes);
+          dates.get(session.date).push({ movie, session });
+        });
+      });
+
+      return [...dates.entries()].sort(([dateA], [dateB]) =>
+        dateA.localeCompare(dateB)
+      );
+    }
+
+    function renderMovie(movieEntries) {
+      const firstEntry = movieEntries[0];
+      const movie = firstEntry.movie;
+      const movieCard = createElement("article", "movie-card");
+
+      if (movie.posterUrl) {
+        const poster = document.createElement("img");
+        poster.className = "poster";
+        poster.src = movie.posterUrl;
+        poster.alt = `${movie.title} poster`;
+        poster.loading = "lazy";
+        movieCard.appendChild(poster);
+      }
+
+      const movieDetails = createElement("div", "movie-details");
+      movieDetails.appendChild(createElement("h3", "movie-title", movie.title));
+
+      const metadata = [
+        movie.format?.join(", "),
+        movie.runtimeInMinutes ? `${movie.runtimeInMinutes} min` : ""
+      ].filter(Boolean).join(" · ");
+
+      if (metadata) {
+        movieDetails.appendChild(createElement("p", "movie-meta", metadata));
+      }
+
+      const showtimes = createElement("div", "showtimes");
+      movieEntries
+        .sort((a, b) => a.session.startsAt.localeCompare(b.session.startsAt))
+        .forEach(({ session }) => {
+          const link = document.createElement("a");
+          link.className = "showtime";
+          link.href = session.ticketingUrl;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = formatTime(session.startsAt);
+          link.title = `Buy tickets for ${movie.title} at ${formatTime(session.startsAt)}`;
+          showtimes.appendChild(link);
+        });
+
+      movieDetails.appendChild(showtimes);
+      movieCard.appendChild(movieDetails);
+      return movieCard;
+    }
+
+    async function loadShowtimes() {
+      const response = await fetch("showtimes.json");
+      if (!response.ok) {
+        throw new Error(`Could not load JSON: ${response.status}`);
+      }
+
+      const data = await response.json();
+      const theatre = data.theatres?.[0];
+      const app = document.getElementById("app");
+
+      if (!theatre) {
+        throw new Error("No theatre was found in showtimes.json");
+      }
+
+      document.getElementById("theatre-name").textContent = theatre.name;
+      document.getElementById("updated-at").textContent = data.updatedAt
+        ? `Last updated: ${new Date(data.updatedAt).toLocaleString()}`
+        : "";
+
+      app.replaceChildren();
+
+      const dateGroups = groupMoviesByDate(theatre.movies || []);
+
+      if (dateGroups.length === 0) {
+        app.appendChild(createElement("p", "empty-state", "No IMAX showtimes found."));
         return;
       }
 
-      theatre.movies.forEach(movie => {
-        const movieSection = document.createElement("section");
+      dateGroups.forEach(([date, entries]) => {
+        const daySection = createElement("section", "day-section");
+        const dayHeading = createElement("h2", "day-heading", formatDate(date));
+        daySection.appendChild(dayHeading);
 
-        const movieHeading = document.createElement("h3");
-        movieHeading.textContent = movie.title;
-        movieSection.appendChild(movieHeading);
-
-        const formatText = document.createElement("p");
-        formatText.textContent = `Format: ${movie.format.join(", ")}`;
-        movieSection.appendChild(formatText);
-
-        const sessionsList = document.createElement("ul");
-
-        movie.sessions.forEach(session => {
-          const listItem = document.createElement("li");
-
-          const seatMapLink = document.createElement("a");
-          seatMapLink.href = session.seatMapUrl;
-          seatMapLink.target = "_blank";
-          seatMapLink.rel = "noopener noreferrer";
-          seatMapLink.textContent = formatTime(session.startsAt);
-
-          listItem.appendChild(seatMapLink);
-          listItem.appendChild(
-            document.createTextNode(
-              ` — ${session.auditorium} — ${session.seatsRemaining} seats remaining`
-            )
-          );
-
-          if (session.soldOut) {
-            listItem.appendChild(document.createTextNode(" — SOLD OUT"));
-          }
-
-          sessionsList.appendChild(listItem);
+        const moviesForDay = new Map();
+        entries.forEach(entry => {
+          const key = entry.movie.title;
+          if (!moviesForDay.has(key)) moviesForDay.set(key, []);
+          moviesForDay.get(key).push(entry);
         });
 
-        movieSection.appendChild(sessionsList);
-        app.appendChild(movieSection);
+        const movieList = createElement("div", "movie-list");
+        moviesForDay.forEach(movieEntries => {
+          movieList.appendChild(renderMovie(movieEntries));
+        });
+
+        daySection.appendChild(movieList);
+        app.appendChild(daySection);
       });
+    }
+
+    loadShowtimes().catch(error => {
+      console.error(error);
+      document.getElementById("app").textContent =
+        "There was a problem loading the showtimes. Check the browser console.";
     });
-  }
-
-  loadShowtimes().catch(error => {
-    console.error(error);
-
-    document.getElementById("app").textContent =
-      "There was a problem loading the showtimes. Check the browser console.";
-  });
-</script>
+  </script>
 </body>
 </html>

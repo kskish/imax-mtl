@@ -1,52 +1,25 @@
 const fs = require("node:fs");
-
 const rawData = JSON.parse(
-  fs.readFileSync("cineplex-response.json", "utf8")
+  fs.readFileSync("data/scotiabank-montreal.json", "utf8"),
 );
-
-const theatres = rawData.map(theatre => {
-  const movies = theatre.dates.flatMap(date =>
-    date.movies.flatMap(movie =>
-      movie.experiences
-        .filter(experience =>
-          experience.experienceTypes.some(type =>
-            type.toLowerCase().includes("imax")
-          )
-        )
-        .map(experience => ({
-          title: movie.name,
-          movieUrl: movie.detailPageUrl,
-          posterUrl: movie.mediumPosterImageUrl,
-          rating: movie.localRating,
-          runtimeInMinutes: movie.runtimeInMinutes,
-          format: experience.experienceTypes,
-          sessions: experience.sessions.map(session => ({
-            startsAt: session.showStartDateTime,
-            auditorium: session.auditorium,
-            seatsRemaining: session.seatsRemaining,
-            soldOut: session.isSoldOut,
-            seatMapUrl: session.seatMapUrl,
-            ticketingUrl: session.ticketingUrl
-          }))
-        }))
-    )
-  );
-
-  return {
-    name: theatre.theatre,
-    theatreId: theatre.theatreId,
-    movies
-  };
-});
-
-const output = {
-  updatedAt: new Date().toISOString(),
-  theatres
+const theatre = {
+  name: rawData.theatre.name,
+  theatreId: rawData.theatre.id,
+  movies: rawData.days.flatMap((day) =>
+    day.movies.map((movie) => ({
+      title: movie.title,
+      posterUrl: movie.poster,
+      runtimeInMinutes: movie.runtimeMinutes,
+      format: [...new Set(movie.sessions.map((session) => session.format))],
+      sessions: movie.sessions.map((session) => ({
+        date: day.date,
+        startsAt: `${day.date}T${session.time}`,
+        format: session.format,
+        ticketingUrl: session.ticketUrl,
+      })),
+    })),
+  ),
 };
-
-fs.writeFileSync(
-  "showtimes.json",
-  JSON.stringify(output, null, 2)
-);
-
+const output = { updatedAt: new Date().toISOString(), theatres: [theatre] };
+fs.writeFileSync("showtimes.json", JSON.stringify(output, null, 2));
 console.log("Created showtimes.json");

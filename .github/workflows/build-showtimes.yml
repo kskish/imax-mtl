@@ -1,19 +1,25 @@
-name: Build IMAX showtimes
+name: Scrape IMAX showtimes
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 11 * * *"
+    # Times below are UTC-4 (EDT); each drifts back about one hour during EST.
+    - cron: "0 13 * * *" # About 9:00 AM ET
+    - cron: "0 16 * * *" # About 12:00 PM ET
+    - cron: "0 19 * * *" # About 3:00 PM ET
+    - cron: "0 22 * * *" # About 6:00 PM ET
+    - cron: "0 1 * * *" # About 9:00 PM ET
+    - cron: "0 4 * * *" # About 12:00 AM ET
+  workflow_dispatch: {}
 
 permissions:
   contents: write
 
 jobs:
-  build-showtimes:
+  scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Get repository files
+      - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -21,13 +27,20 @@ jobs:
         with:
           node-version: 20
 
-      - name: Create IMAX-only JSON
+      - name: Run scraper
+        run: node scripts/scrape.mjs
+
+      - name: Build website showtimes JSON
         run: node build-showtimes.js
 
-      - name: Commit updated showtimes file
+      - name: Commit changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add showtimes.json
+
+          git add data/*.json showtimes.json
+
           git diff --staged --quiet || git commit -m "Update IMAX showtimes"
+
+          git pull --rebase
           git push
