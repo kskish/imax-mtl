@@ -109,7 +109,9 @@
     }
 
     async function loadShowtimes() {
-      const response = await fetch("showtimes.json");
+      const response = await fetch(
+        `showtimes.json?cacheBust=${Date.now()}`
+      );
       if (!response.ok) {
         throw new Error(`Could not load JSON: ${response.status}`);
       }
