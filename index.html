@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMAX Showtimes</title>
+
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 1rem 0;
+      padding: 1rem;
+    }
+
+    a {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>IMAX Showtimes</h1>
+  <div id="app"></div>
+
+<script>
+  function formatTime(dateTime) {
+    return new Date(dateTime).toLocaleTimeString([], {
+      hour: "numeric",
+      minute: "2-digit"
+    });
+  }
+
+  async function loadShowtimes() {
+    const response = await fetch("showtimes.json");
+
+    if (!response.ok) {
+      throw new Error(`Could not load JSON: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    const app = document.getElementById("app");
+    app.innerHTML = "";
+
+    const updated = document.createElement("p");
+    updated.textContent =
+      `Last updated: ${new Date(data.updatedAt).toLocaleString()}`;
+    app.appendChild(updated);
+
+    data.theatres.forEach(theatre => {
+      const theatreHeading = document.createElement("h2");
+      theatreHeading.textContent = theatre.name;
+      app.appendChild(theatreHeading);
+
+      if (theatre.movies.length === 0) {
+        const noShowtimes = document.createElement("p");
+        noShowtimes.textContent = "No IMAX showtimes found.";
+        app.appendChild(noShowtimes);
+        return;
+      }
+
+      theatre.movies.forEach(movie => {
+        const movieSection = document.createElement("section");
+
+        const movieHeading = document.createElement("h3");
+        movieHeading.textContent = movie.title;
+        movieSection.appendChild(movieHeading);
+
+        const formatText = document.createElement("p");
+        formatText.textContent = `Format: ${movie.format.join(", ")}`;
+        movieSection.appendChild(formatText);
+
+        const sessionsList = document.createElement("ul");
+
+        movie.sessions.forEach(session => {
+          const listItem = document.createElement("li");
+
+          const seatMapLink = document.createElement("a");
+          seatMapLink.href = session.seatMapUrl;
+          seatMapLink.target = "_blank";
+          seatMapLink.rel = "noopener noreferrer";
+          seatMapLink.textContent = formatTime(session.startsAt);
+
+          listItem.appendChild(seatMapLink);
+          listItem.appendChild(
+            document.createTextNode(
+              ` — ${session.auditorium} — ${session.seatsRemaining} seats remaining`
+            )
+          );
+
+          if (session.soldOut) {
+            listItem.appendChild(document.createTextNode(" — SOLD OUT"));
+          }
+
+          sessionsList.appendChild(listItem);
+        });
+
+        movieSection.appendChild(sessionsList);
+        app.appendChild(movieSection);
+      });
+    });
+  }
+
+  loadShowtimes().catch(error => {
+    console.error(error);
+
+    document.getElementById("app").textContent =
+      "There was a problem loading the showtimes. Check the browser console.";
+  });
+</script>
+</body>
+</html>

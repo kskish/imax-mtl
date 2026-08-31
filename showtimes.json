@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-08-31T01:14:29.916Z",
+  "theatres": [
+    {
+      "name": "Cinéma Banque Scotia Montréal",
+      "theatreId": 9406,
+      "movies": [
+        {
+          "title": "The Odyssey",
+          "movieUrl": "https://www.cineplex.com/Movie/the-odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "rating": "13ans+",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX",
+            "70mm"
+          ],
+          "sessions": [
+            {
+              "startsAt": "2026-08-30T22:40:00",
+              "auditorium": "Salle 13 - IMAX",
+              "seatsRemaining": 37,
+              "soldOut": false,
+              "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=404571&dbox=False",
+              "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=404571&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

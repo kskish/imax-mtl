@@ -1,0 +1,691 @@
+[
+    {
+        "theatre": "Cinéma Banque Scotia Montréal",
+        "theatreId": 9406,
+        "dates": [
+            {
+                "startDate": "2026-08-30T00:00:00",
+                "movies": [
+                    {
+                        "id": 37997,
+                        "presentationType": "Film Presentation",
+                        "name": "Spider-Man: Brand New Day",
+                        "filmUrl": "spiderman-brand-new-day",
+                        "isEvent": false,
+                        "runtimeInMinutes": 145,
+                        "smallPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_130_193.jpg",
+                        "mediumPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
+                        "largePosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_768_1024.jpg",
+                        "genres": [
+                            "Action",
+                            "Adventure"
+                        ],
+                        "experiences": [
+                            {
+                                "experienceTypes": [
+                                    "UltraAVX",
+                                    "ScreenX"
+                                ],
+                                "order": 2,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406308&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406308&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406308&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406308&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406308&a=0000000001&l=9406&m=spiderman-brand-new-day&ss=False",
+                                        "showtimeShareKey": "v:406308_t:9406_a:0000000001",
+                                        "vistaSessionId": 406308,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T22:25:00",
+                                        "showStartDateTimeUtc": "2026-08-31T02:25:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 381,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 07 - AVX"
+                                    }
+                                ]
+                            },
+                            {
+                                "experienceTypes": [
+                                    "3D"
+                                ],
+                                "order": 3,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406301&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406301&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406301&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406301&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406301&a=0000000001&l=9406&m=spiderman-brand-new-day&ss=False",
+                                        "showtimeShareKey": "v:406301_t:9406_a:0000000001",
+                                        "vistaSessionId": 406301,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T21:40:00",
+                                        "showStartDateTimeUtc": "2026-08-31T01:40:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 222,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 04"
+                                    }
+                                ]
+                            }
+                        ],
+                        "brightcoveVideoId": "ref:Spider-Man Brand New Day EN Trailer 5",
+                        "localRating": "G",
+                        "ratingDescription": "May be viewed by persons of all ages.",
+                        "warnings": [],
+                        "languageCode": "EN",
+                        "language": "English",
+                        "subtitleLanguage": "",
+                        "marketLanguageCode": "EN",
+                        "detailPageUrl": "https://www.cineplex.com/Movie/spiderman-brand-new-day",
+                        "passesAllowed": true,
+                        "hasPosterImage": true
+                    },
+                    {
+                        "id": 37617,
+                        "presentationType": "Film Presentation",
+                        "name": "The Odyssey",
+                        "filmUrl": "the-odyssey",
+                        "isEvent": false,
+                        "runtimeInMinutes": 172,
+                        "smallPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_130_193.jpg",
+                        "mediumPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+                        "largePosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_768_1024.jpg",
+                        "genres": [
+                            "Action"
+                        ],
+                        "experiences": [
+                            {
+                                "experienceTypes": [
+                                    "IMAX",
+                                    "70mm"
+                                ],
+                                "order": 2,
+                                "isCcEnabled": false,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=404571&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=404571&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=404571&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=404571&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=404571&a=0000000001&l=9406&m=the-odyssey&ss=False",
+                                        "showtimeShareKey": "v:404571_t:9406_a:0000000001",
+                                        "vistaSessionId": 404571,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T22:40:00",
+                                        "showStartDateTimeUtc": "2026-08-31T02:40:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 37,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 13 - IMAX"
+                                    }
+                                ]
+                            },
+                            {
+                                "experienceTypes": [
+                                    "70mm"
+                                ],
+                                "order": 3,
+                                "isCcEnabled": false,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406304&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406304&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406304&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406304&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406304&a=0000000001&l=9406&m=the-odyssey&ss=False",
+                                        "showtimeShareKey": "v:406304_t:9406_a:0000000001",
+                                        "vistaSessionId": 406304,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T22:00:00",
+                                        "showStartDateTimeUtc": "2026-08-31T02:00:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 302,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 11"
+                                    }
+                                ]
+                            },
+                            {
+                                "experienceTypes": [
+                                    "Regular"
+                                ],
+                                "order": 4,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406297&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406297&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406297&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406297&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406297&a=0000000001&l=9406&m=the-odyssey&ss=False",
+                                        "showtimeShareKey": "v:406297_t:9406_a:0000000001",
+                                        "vistaSessionId": 406297,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T21:00:00",
+                                        "showStartDateTimeUtc": "2026-08-31T01:00:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 305,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 02"
+                                    }
+                                ]
+                            }
+                        ],
+                        "brightcoveVideoId": "ref:The Odyssey EN Trailer 3",
+                        "localRating": "13ans+",
+                        "ratingDescription": "May be viewed by persons 13 years of age or over. Persons under 13 must be accompanied by an adult.",
+                        "warnings": [
+                            "Photosensitivity Warning"
+                        ],
+                        "languageCode": "EN",
+                        "language": "English",
+                        "subtitleLanguage": "",
+                        "marketLanguageCode": "EN",
+                        "detailPageUrl": "https://www.cineplex.com/Movie/the-odyssey",
+                        "passesAllowed": true,
+                        "hasPosterImage": true
+                    },
+                    {
+                        "id": 60636,
+                        "presentationType": "Film Presentation",
+                        "name": "Coyote vs ACME",
+                        "filmUrl": "coyote-vs-acme-2026",
+                        "isEvent": false,
+                        "runtimeInMinutes": 103,
+                        "smallPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_130_193.jpg",
+                        "mediumPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
+                        "largePosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_768_1024.jpg",
+                        "genres": [
+                            "Action",
+                            "Adventure"
+                        ],
+                        "experiences": [
+                            {
+                                "experienceTypes": [
+                                    "Regular"
+                                ],
+                                "order": 2,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406302&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406302&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406302&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406302&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406302&a=0000000001&l=9406&m=coyote-vs-acme-2026&ss=False",
+                                        "showtimeShareKey": "v:406302_t:9406_a:0000000001",
+                                        "vistaSessionId": 406302,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T21:45:00",
+                                        "showStartDateTimeUtc": "2026-08-31T01:45:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 293,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 08"
+                                    }
+                                ]
+                            }
+                        ],
+                        "brightcoveVideoId": "ref:Coyote vs Acme EN Trailer 2",
+                        "localRating": "G",
+                        "ratingDescription": "May be viewed by persons of all ages.",
+                        "warnings": [],
+                        "languageCode": "EN",
+                        "language": "English",
+                        "subtitleLanguage": "",
+                        "marketLanguageCode": "EN",
+                        "detailPageUrl": "https://www.cineplex.com/Movie/coyote-vs-acme-2026",
+                        "passesAllowed": true,
+                        "hasPosterImage": true
+                    },
+                    {
+                        "id": 37918,
+                        "presentationType": "Film Presentation",
+                        "name": "The Dog Stars",
+                        "filmUrl": "the-dog-stars",
+                        "isEvent": false,
+                        "runtimeInMinutes": 118,
+                        "smallPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_130_193.jpg",
+                        "mediumPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
+                        "largePosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_768_1024.jpg",
+                        "genres": [
+                            "Action"
+                        ],
+                        "experiences": [
+                            {
+                                "experienceTypes": [
+                                    "D-BOX"
+                                ],
+                                "order": 2,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406305&dbox=True",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406305&VISTAHOCategoryCode=0000000004&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406305&VISTAHOCategoryCode=0000000004&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406305&VISTAHOCategoryCode=0000000004&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406305&a=0000000004&l=9406&m=the-dog-stars&ss=False",
+                                        "showtimeShareKey": "v:406305_t:9406_a:0000000004",
+                                        "vistaSessionId": 406305,
+                                        "areaCode": "0000000004",
+                                        "showStartDateTime": "2026-08-30T22:05:00",
+                                        "showStartDateTimeUtc": "2026-08-31T02:05:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 372,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 06"
+                                    }
+                                ]
+                            },
+                            {
+                                "experienceTypes": [
+                                    "Regular"
+                                ],
+                                "order": 3,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406305&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406305&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406305&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406305&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406305&a=0000000001&l=9406&m=the-dog-stars&ss=False",
+                                        "showtimeShareKey": "v:406305_t:9406_a:0000000001",
+                                        "vistaSessionId": 406305,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T22:05:00",
+                                        "showStartDateTimeUtc": "2026-08-31T02:05:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 372,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 06"
+                                    }
+                                ]
+                            }
+                        ],
+                        "brightcoveVideoId": "ref:The Dog Stars EN Trailer 2",
+                        "localRating": "13ans+",
+                        "ratingDescription": "May be viewed by persons 13 years of age or over. Persons under 13 must be accompanied by an adult.",
+                        "warnings": [
+                            "Violence",
+                            "Photosensitivity Warning"
+                        ],
+                        "languageCode": "EN",
+                        "language": "English",
+                        "subtitleLanguage": "",
+                        "marketLanguageCode": "EN",
+                        "detailPageUrl": "https://www.cineplex.com/Movie/the-dog-stars",
+                        "passesAllowed": false,
+                        "hasPosterImage": true
+                    },
+                    {
+                        "id": 36750,
+                        "presentationType": "Film Presentation",
+                        "name": "Insidious: Out of the Further",
+                        "filmUrl": "insidious-out-of-the-further",
+                        "isEvent": false,
+                        "runtimeInMinutes": 106,
+                        "smallPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_130_193.jpg",
+                        "mediumPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
+                        "largePosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_768_1024.jpg",
+                        "genres": [],
+                        "experiences": [
+                            {
+                                "experienceTypes": [
+                                    "Regular"
+                                ],
+                                "order": 2,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406306&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406306&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406306&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406306&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406306&a=0000000001&l=9406&m=insidious-out-of-the-further&ss=False",
+                                        "showtimeShareKey": "v:406306_t:9406_a:0000000001",
+                                        "vistaSessionId": 406306,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T22:10:00",
+                                        "showStartDateTimeUtc": "2026-08-31T02:10:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 382,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "brightcoveVideoId": "ref:Insidious: Out of the Further EN Trailer 2",
+                        "localRating": "13ans+",
+                        "ratingDescription": "May be viewed by persons 13 years of age or over. Persons under 13 must be accompanied by an adult.",
+                        "warnings": [
+                            "Horror"
+                        ],
+                        "languageCode": "EN",
+                        "language": "English",
+                        "subtitleLanguage": "",
+                        "marketLanguageCode": "EN",
+                        "detailPageUrl": "https://www.cineplex.com/Movie/insidious-out-of-the-further",
+                        "passesAllowed": false,
+                        "hasPosterImage": true
+                    },
+                    {
+                        "id": 60676,
+                        "presentationType": "Film Presentation",
+                        "name": "Spa Weekend",
+                        "filmUrl": "spa-weekend",
+                        "isEvent": false,
+                        "runtimeInMinutes": 98,
+                        "smallPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/60676_130_193.jpg",
+                        "mediumPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/60676_320_470.jpg",
+                        "largePosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/60676_768_1024.jpg",
+                        "genres": [
+                            "Comedy"
+                        ],
+                        "experiences": [
+                            {
+                                "experienceTypes": [
+                                    "Regular"
+                                ],
+                                "order": 2,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406307&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406307&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406307&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406307&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406307&a=0000000001&l=9406&m=spa-weekend&ss=False",
+                                        "showtimeShareKey": "v:406307_t:9406_a:0000000001",
+                                        "vistaSessionId": 406307,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T22:20:00",
+                                        "showStartDateTimeUtc": "2026-08-31T02:20:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 160,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 09"
+                                    }
+                                ]
+                            }
+                        ],
+                        "brightcoveVideoId": "ref:Spa Weekend EN Trailer 1",
+                        "localRating": "13ans+",
+                        "ratingDescription": "May be viewed by persons 13 years of age or over. Persons under 13 must be accompanied by an adult.",
+                        "warnings": [
+                            "Coarse Language"
+                        ],
+                        "languageCode": "EN",
+                        "language": "English",
+                        "subtitleLanguage": "",
+                        "marketLanguageCode": "EN",
+                        "detailPageUrl": "https://www.cineplex.com/Movie/spa-weekend",
+                        "passesAllowed": false,
+                        "hasPosterImage": true
+                    },
+                    {
+                        "id": 37909,
+                        "presentationType": "Film Presentation",
+                        "name": "Mutiny",
+                        "filmUrl": "mutiny",
+                        "isEvent": false,
+                        "runtimeInMinutes": 95,
+                        "smallPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37909_130_193.jpg",
+                        "mediumPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37909_320_470.jpg",
+                        "largePosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37909_768_1024.jpg",
+                        "genres": [
+                            "Action"
+                        ],
+                        "experiences": [
+                            {
+                                "experienceTypes": [
+                                    "Regular"
+                                ],
+                                "order": 2,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406299&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406299&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406299&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406299&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406299&a=0000000001&l=9406&m=mutiny&ss=False",
+                                        "showtimeShareKey": "v:406299_t:9406_a:0000000001",
+                                        "vistaSessionId": 406299,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T21:20:00",
+                                        "showStartDateTimeUtc": "2026-08-31T01:20:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 385,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 12"
+                                    }
+                                ]
+                            }
+                        ],
+                        "brightcoveVideoId": "ref:Mutiny EN Trailer 1",
+                        "localRating": "13ans+",
+                        "ratingDescription": "May be viewed by persons 13 years of age or over. Persons under 13 must be accompanied by an adult.",
+                        "warnings": [
+                            "Violence"
+                        ],
+                        "languageCode": "EN",
+                        "language": "English",
+                        "subtitleLanguage": "",
+                        "marketLanguageCode": "EN",
+                        "detailPageUrl": "https://www.cineplex.com/Movie/mutiny",
+                        "passesAllowed": false,
+                        "hasPosterImage": true
+                    },
+                    {
+                        "id": 36540,
+                        "presentationType": "Film Presentation",
+                        "name": "The End of Oak Street",
+                        "filmUrl": "the-end-of-oak-street",
+                        "isEvent": false,
+                        "runtimeInMinutes": 99,
+                        "smallPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/36540_130_193.jpg",
+                        "mediumPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/36540_320_470.jpg",
+                        "largePosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/36540_768_1024.jpg",
+                        "genres": [],
+                        "experiences": [
+                            {
+                                "experienceTypes": [
+                                    "Regular"
+                                ],
+                                "order": 2,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406298&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406298&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406298&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406298&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406298&a=0000000001&l=9406&m=the-end-of-oak-street&ss=False",
+                                        "showtimeShareKey": "v:406298_t:9406_a:0000000001",
+                                        "vistaSessionId": 406298,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T21:10:00",
+                                        "showStartDateTimeUtc": "2026-08-31T01:10:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 153,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 03"
+                                    }
+                                ]
+                            }
+                        ],
+                        "brightcoveVideoId": "ref:The End of Oak Street EN Trailer 1",
+                        "localRating": "G",
+                        "ratingDescription": "May be viewed by persons of all ages.",
+                        "warnings": [
+                            "Not Recommended for Young Children"
+                        ],
+                        "languageCode": "EN",
+                        "language": "English",
+                        "subtitleLanguage": "",
+                        "marketLanguageCode": "EN",
+                        "detailPageUrl": "https://www.cineplex.com/Movie/the-end-of-oak-street",
+                        "passesAllowed": false,
+                        "hasPosterImage": true
+                    },
+                    {
+                        "id": 38505,
+                        "presentationType": "Film Presentation",
+                        "name": "One Night Only",
+                        "filmUrl": "one-night-only",
+                        "isEvent": false,
+                        "runtimeInMinutes": 102,
+                        "smallPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/38505_130_193.jpg",
+                        "mediumPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/38505_320_470.jpg",
+                        "largePosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/38505_768_1024.jpg",
+                        "genres": [
+                            "Romance"
+                        ],
+                        "experiences": [
+                            {
+                                "experienceTypes": [
+                                    "Regular"
+                                ],
+                                "order": 2,
+                                "isCcEnabled": true,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406300&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406300&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406300&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406300&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406300&a=0000000001&l=9406&m=one-night-only&ss=False",
+                                        "showtimeShareKey": "v:406300_t:9406_a:0000000001",
+                                        "vistaSessionId": 406300,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T21:30:00",
+                                        "showStartDateTimeUtc": "2026-08-31T01:30:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 222,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 10"
+                                    }
+                                ]
+                            }
+                        ],
+                        "brightcoveVideoId": "ref:One Night Only EN Trailer 1",
+                        "localRating": "13ans+",
+                        "ratingDescription": "May be viewed by persons 13 years of age or over. Persons under 13 must be accompanied by an adult.",
+                        "warnings": [],
+                        "languageCode": "EN",
+                        "language": "English",
+                        "subtitleLanguage": "",
+                        "marketLanguageCode": "EN",
+                        "detailPageUrl": "https://www.cineplex.com/Movie/one-night-only",
+                        "passesAllowed": true,
+                        "hasPosterImage": true
+                    },
+                    {
+                        "id": 61692,
+                        "presentationType": "Film Presentation",
+                        "name": "Legend of the White Dragon",
+                        "filmUrl": "legend-of-the-white-dragon",
+                        "isEvent": false,
+                        "runtimeInMinutes": 97,
+                        "smallPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/61692_130_193.jpg",
+                        "mediumPosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/61692_320_470.jpg",
+                        "largePosterImageUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/61692_768_1024.jpg",
+                        "genres": [
+                            "Action",
+                            "Adventure"
+                        ],
+                        "experiences": [
+                            {
+                                "experienceTypes": [
+                                    "Regular"
+                                ],
+                                "order": 2,
+                                "isCcEnabled": false,
+                                "isDsEnabled": false,
+                                "sessions": [
+                                    {
+                                        "seatMapUrl": "https://www.cineplex.com/en-Mobile/ticketing/preview?theatreId=9406&showtimeId=406303&dbox=False",
+                                        "ticketingUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406303&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "ticketingRedesignUrl": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/redirect-to-ticketing?VistaSessionId=406303&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "getTicketingUrlApi": "https://apis.cineplex.com/prod/ticketing/api/v1/routing/ticketing-url?VistaSessionId=406303&VISTAHOCategoryCode=0000000001&LocationId=9406&IsSeriesShowtime=False",
+                                        "deeplinkUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406303&a=0000000001&l=9406&m=legend-of-the-white-dragon&ss=False",
+                                        "showtimeShareKey": "v:406303_t:9406_a:0000000001",
+                                        "vistaSessionId": 406303,
+                                        "areaCode": "0000000001",
+                                        "showStartDateTime": "2026-08-30T21:50:00",
+                                        "showStartDateTimeUtc": "2026-08-31T01:50:00Z",
+                                        "isInThePast": false,
+                                        "isReservedSeating": true,
+                                        "isShowtimeEnabledOnline": true,
+                                        "seatsRemaining": 301,
+                                        "isSoldOut": false,
+                                        "auditorium": "Salle 05"
+                                    }
+                                ]
+                            }
+                        ],
+                        "brightcoveVideoId": "ref:Legend of the White Dragon Trailer 2026",
+                        "localRating": "13ans+",
+                        "ratingDescription": "May be viewed by persons 13 years of age or over. Persons under 13 must be accompanied by an adult.",
+                        "warnings": [
+                            "Violence"
+                        ],
+                        "languageCode": "EN",
+                        "language": "English",
+                        "subtitleLanguage": "",
+                        "marketLanguageCode": "EN",
+                        "detailPageUrl": "https://www.cineplex.com/Movie/legend-of-the-white-dragon",
+                        "passesAllowed": true,
+                        "hasPosterImage": true
+                    }
+                ]
+            }
+        ]
+    }
+]
