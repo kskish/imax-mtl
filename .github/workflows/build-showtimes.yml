@@ -2,13 +2,15 @@ name: Scrape IMAX showtimes
 
 on:
   schedule:
-    # Times below are UTC-4 (EDT); each drifts back about one hour during EST.
-    - cron: "0 13 * * *" # About 9:00 AM ET
-    - cron: "0 16 * * *" # About 12:00 PM ET
-    - cron: "0 19 * * *" # About 3:00 PM ET
-    - cron: "0 22 * * *" # About 6:00 PM ET
-    - cron: "0 1 * * *" # About 9:00 PM ET
-    - cron: "0 4 * * *" # About 12:00 AM ET
+    # Fixed UTC times while Montreal is on EDT (UTC-4).
+    # Use :07 instead of :00 to reduce the chance of GitHub scheduler delays.
+    - cron: "7 13 * * *" # About 9:07 AM Montreal during EDT
+    - cron: "7 16 * * *" # About 12:07 PM Montreal during EDT
+    - cron: "7 19 * * *" # About 3:07 PM Montreal during EDT
+    - cron: "7 22 * * *" # About 6:07 PM Montreal during EDT
+    - cron: "7 1 * * *" # About 9:07 PM Montreal during EDT
+    - cron: "7 4 * * *" # About 12:07 AM Montreal during EDT
+
   workflow_dispatch: {}
 
 permissions:
@@ -33,14 +35,16 @@ jobs:
       - name: Build website showtimes JSON
         run: node build-showtimes.js
 
-      - name: Commit changes if any
+      - name: Commit and push changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/*.json showtimes.json
 
-          git diff --staged --quiet || git commit -m "Update IMAX showtimes"
-
-          git pull --rebase
-          git push
+          if git diff --staged --quiet; then
+            echo "No showtime changes to commit."
+          else
+            git commit -m "Update IMAX showtimes"
+            git push
+          fi
