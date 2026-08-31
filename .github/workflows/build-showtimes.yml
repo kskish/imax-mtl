@@ -2,6 +2,8 @@ name: Build IMAX showtimes
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 11 * * *"
 
 permissions:
   contents: write
