@@ -10,8 +10,7 @@ on:
     - cron: "7 22 * * *" # About 6:07 PM Montreal during EDT
     - cron: "7 1 * * *" # About 9:07 PM Montreal during EDT
     - cron: "7 4 * * *" # About 12:07 AM Montreal during EDT
-
-  workflow_dispatch: {}
+    - cron: "35 22 * * *" # 6:35 PM Montreal during EDT
 
 permissions:
   contents: write
