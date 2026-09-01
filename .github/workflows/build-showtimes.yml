@@ -40,9 +40,12 @@ jobs:
 
           git add data/*.json showtimes.json
 
+          echo "Checking for showtime changes..."
+
           if git diff --staged --quiet; then
             echo "No showtime changes to commit."
           else
+            echo "Showtime changes detected. Committing..."
             git commit -m "Update IMAX showtimes"
             git push
           fi

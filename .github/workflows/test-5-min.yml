@@ -1,0 +1,15 @@
+name: Test Echo Every 5 Minutes
+
+on:
+  schedule:
+    # Runs every 5 minutes (cron syntax: minute hour day month weekday)
+    - cron: '*/5 * * * *'
+  # Also allow manual triggering for testing
+  workflow_dispatch:
+
+jobs:
+  test-echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo timestamp
+        run: echo "Test run at $(date)"
