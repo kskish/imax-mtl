@@ -1,0 +1,1526 @@
+{
+  "updatedAt": "2026-09-01T22:45:37.786Z",
+  "theatre": {
+    "id": 9109,
+    "name": "Cinéma Cineplex Forum et VIP"
+  },
+  "days": [
+    {
+      "date": "2026-09-01",
+      "movies": [
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "21:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492041&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "movies": [
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "14:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492073&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Dog Stars",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
+          "runtimeMinutes": 118,
+          "sessions": [
+            {
+              "time": "18:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492099&a=0000000001&l=9109&m=the-dog-stars&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61852_320_470.jpg",
+          "runtimeMinutes": 132,
+          "sessions": [
+            {
+              "time": "21:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=489388&a=0000000001&l=9109&m=imax-katy-perry-the-lifetimes-tour&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "movies": [
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "14:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492154&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            },
+            {
+              "time": "21:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492202&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Dog Stars",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
+          "runtimeMinutes": 118,
+          "sessions": [
+            {
+              "time": "18:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492180&a=0000000001&l=9109&m=the-dog-stars&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61852_320_470.jpg",
+          "runtimeMinutes": 132,
+          "sessions": [
+            {
+              "time": "19:00",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=489389&a=0000000001&l=9109&m=imax-katy-perry-the-lifetimes-tour&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "movies": [
+        {
+          "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
+          "runtimeMinutes": 125,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491630&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            },
+            {
+              "time": "19:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491631&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "movies": [
+        {
+          "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61852_320_470.jpg",
+          "runtimeMinutes": 132,
+          "sessions": [
+            {
+              "time": "21:30",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=489390&a=0000000001&l=9109&m=imax-katy-perry-the-lifetimes-tour&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
+          "runtimeMinutes": 125,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491633&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            },
+            {
+              "time": "19:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491632&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "movies": [
+        {
+          "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
+          "runtimeMinutes": 125,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491634&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            },
+            {
+              "time": "19:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491635&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "movies": [
+        {
+          "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
+          "runtimeMinutes": 125,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491637&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            },
+            {
+              "time": "19:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491636&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "movies": [
+        {
+          "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
+          "runtimeMinutes": 125,
+          "sessions": [
+            {
+              "time": "19:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491639&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "movies": [
+        {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
+          "runtimeMinutes": 119,
+          "sessions": [
+            {
+              "time": "19:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491629&a=0000000001&l=9109&m=oasis-dont-look-back-in-anger&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "14:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492276&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "17:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492275&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "19:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492274&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492273&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492248&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "14:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492249&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "17:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492250&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "19:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492251&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492252&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492253&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "14:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492254&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "17:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492255&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "19:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492256&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492257&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492258&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "14:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492259&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "17:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492260&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "19:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492261&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492262&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492263&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "14:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492264&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "17:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492265&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "19:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492266&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492267&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492268&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "14:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492269&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "17:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492270&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "19:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492271&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492272&a=0000000001&l=9109&m=resident-evil-2026&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "movies": [
+        {
+          "title": "Avengers Endgame: Encore – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61979_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "14:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492240&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "18:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492239&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "22:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492238&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "movies": [
+        {
+          "title": "Avengers Endgame: Encore – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61979_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "14:00",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492223&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "18:00",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492224&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492225&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "movies": [
+        {
+          "title": "Avengers Endgame: Encore – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61979_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "14:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492226&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "18:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492227&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "22:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492228&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "movies": [
+        {
+          "title": "Avengers Endgame: Encore – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61979_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "14:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492229&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "18:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492230&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "22:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492231&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
+          "title": "Avengers Endgame: Encore – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61979_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "14:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492232&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "18:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492233&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "22:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492234&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "movies": [
+        {
+          "title": "Avengers Endgame: Encore – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61979_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "14:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492235&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "18:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492236&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            },
+            {
+              "time": "22:15",
+              "format": "Regular",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492237&a=0000000001&l=9109&m=imax-avengers-endgame-encore-the-imax-experien&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-15",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "18:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490892&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-17",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490893&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490894&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490895&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-18",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490896&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490897&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490898&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490899&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-19",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490903&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490902&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490901&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490900&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-20",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490907&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490906&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490905&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490904&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-21",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490908&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490909&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490910&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490911&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-22",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490915&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490914&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490913&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490912&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-23",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490916&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490917&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490918&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490919&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-24",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490920&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490921&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490922&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490923&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490927&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490926&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490925&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490924&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-26",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490928&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490929&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490930&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490931&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-27",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490932&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490933&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490934&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490935&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-28",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490936&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490937&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490938&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490939&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-29",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490943&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490942&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490941&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490940&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-30",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490947&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490946&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490945&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490944&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-31",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490951&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490950&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490949&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490948&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-01",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490952&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490953&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490954&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490955&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-02",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490959&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490958&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490957&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490956&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-03",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490960&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "14:50",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490961&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:40",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490962&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490963&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-04",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "14:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490966&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490965&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490964&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-05",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "14:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490967&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490968&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490969&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-06",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "14:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490970&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490971&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490972&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-07",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "14:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490973&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490974&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490975&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-08",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490978&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490977&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490976&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490979&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-09",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:15",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490981&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "15:05",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490982&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490983&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:45",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490980&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-10",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "11:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490986&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "14:50",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490985&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:40",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490984&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:30",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490987&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-11",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "14:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490989&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490990&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490988&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-12",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "14:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490992&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490991&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490993&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-13",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "14:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490995&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490994&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490996&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2027-01-14",
+      "movies": [
+        {
+          "title": "Dune: Part 3",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37998_320_470.jpg",
+          "runtimeMinutes": 140,
+          "sessions": [
+            {
+              "time": "14:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490998&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "18:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490997&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            },
+            {
+              "time": "22:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=490999&a=0000000001&l=9109&m=dune-part-3&ss=False"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

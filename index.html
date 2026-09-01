@@ -10,7 +10,17 @@
   <main class="page-shell">
     <header class="page-header">
       <h1>IMAX Showtimes</h1>
-      <p id="theatre-name" class="theatre-name">Loading theatre...</p>
+
+      <div
+        id="theatre-tabs"
+        class="theatre-tabs"
+        aria-label="Choose a theatre"
+      ></div>
+
+      <p id="theatre-name" class="theatre-name">
+        Loading theatre...
+      </p>
+
       <p id="updated-at" class="updated-at"></p>
     </header>
 
@@ -18,6 +28,17 @@
   </main>
 
   <script>
+    const theatres = [
+      {
+        name: "Cinéma Cineplex Forum et VIP",
+        file: "data/forum-montreal.json"
+      },
+      {
+        name: "Cinéma Banque Scotia Montréal",
+        file: "data/scotiabank-montreal.json"
+      }
+    ];
+
     const dateFormatter = new Intl.DateTimeFormat(undefined, {
       weekday: "short",
       month: "short",
@@ -29,130 +50,156 @@
       minute: "2-digit"
     });
 
+    const tabs = document.getElementById("theatre-tabs");
+    const app = document.getElementById("app");
+    const theatreName = document.getElementById("theatre-name");
+    const updatedAt = document.getElementById("updated-at");
+
     function formatDate(dateString) {
-      // Adding T12:00 avoids a date moving backward in some time zones.
-      return dateFormatter.format(new Date(`${dateString}T12:00:00`));
+      return dateFormatter.format(
+        new Date(`${dateString}T12:00:00`)
+      );
     }
 
-    function formatTime(dateTime) {
-      return timeFormatter.format(new Date(dateTime));
+    function formatTime(timeString) {
+      const [hours, minutes] = timeString.split(":");
+
+      const date = new Date();
+      date.setHours(Number(hours), Number(minutes), 0, 0);
+
+      return timeFormatter.format(date);
     }
 
     function createElement(tagName, className, text = "") {
       const element = document.createElement(tagName);
-      if (className) element.className = className;
-      if (text) element.textContent = text;
+
+      if (className) {
+        element.className = className;
+      }
+
+      if (text) {
+        element.textContent = text;
+      }
+
       return element;
     }
 
-    function groupMoviesByDate(movies) {
-      const dates = new Map();
-
-      movies.forEach(movie => {
-        movie.sessions.forEach(session => {
-          if (!dates.has(session.date)) {
-            dates.set(session.date, []);
-          }
-
-          dates.get(session.date).push({ movie, session });
-        });
-      });
-
-      return [...dates.entries()].sort(([dateA], [dateB]) =>
-        dateA.localeCompare(dateB)
-      );
-    }
-
-    function renderMovie(movieEntries) {
-      const firstEntry = movieEntries[0];
-      const movie = firstEntry.movie;
+    function renderMovie(movie) {
       const movieCard = createElement("article", "movie-card");
 
-      if (movie.posterUrl) {
+      if (movie.poster) {
         const poster = document.createElement("img");
         poster.className = "poster";
-        poster.src = movie.posterUrl;
+        poster.src = movie.poster;
         poster.alt = `${movie.title} poster`;
         poster.loading = "lazy";
         movieCard.appendChild(poster);
       }
 
       const movieDetails = createElement("div", "movie-details");
-      movieDetails.appendChild(createElement("h3", "movie-title", movie.title));
+
+      movieDetails.appendChild(
+        createElement("h3", "movie-title", movie.title)
+      );
 
       const metadata = [
-        movie.format?.join(", "),
-        movie.runtimeInMinutes ? `${movie.runtimeInMinutes} min` : ""
-      ].filter(Boolean).join(" · ");
+        movie.format,
+        movie.runtimeMinutes
+          ? `${movie.runtimeMinutes} min`
+          : ""
+      ]
+        .filter(Boolean)
+        .join(" · ");
 
       if (metadata) {
-        movieDetails.appendChild(createElement("p", "movie-meta", metadata));
+        movieDetails.appendChild(
+          createElement("p", "movie-meta", metadata)
+        );
       }
 
       const showtimes = createElement("div", "showtimes");
-      movieEntries
-        .sort((a, b) => a.session.startsAt.localeCompare(b.session.startsAt))
-        .forEach(({ session }) => {
-          const link = document.createElement("a");
-          link.className = "showtime";
-          link.href = session.ticketingUrl;
-          link.target = "_blank";
-          link.rel = "noopener noreferrer";
-          link.textContent = formatTime(session.startsAt);
-          link.title = `Buy tickets for ${movie.title} at ${formatTime(session.startsAt)}`;
-          showtimes.appendChild(link);
-        });
+
+      const sortedSessions = [...(movie.sessions || [])]
+        .sort((a, b) => a.time.localeCompare(b.time));
+
+      sortedSessions.forEach(session => {
+        const link = document.createElement("a");
+
+        link.className = "showtime";
+        link.href = session.ticketUrl || "#";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = formatTime(session.time);
+        link.title =
+          `Buy tickets for ${movie.title} at ${formatTime(session.time)}`;
+
+        if (!session.ticketUrl) {
+          link.removeAttribute("target");
+          link.removeAttribute("rel");
+          link.setAttribute("aria-disabled", "true");
+        }
+
+        showtimes.appendChild(link);
+      });
 
       movieDetails.appendChild(showtimes);
       movieCard.appendChild(movieDetails);
+
       return movieCard;
     }
 
-    async function loadShowtimes() {
-      const response = await fetch(
-        `showtimes.json?cacheBust=${Date.now()}`
-      );
-      if (!response.ok) {
-        throw new Error(`Could not load JSON: ${response.status}`);
-      }
-
-      const data = await response.json();
-      const theatre = data.theatres?.[0];
-      const app = document.getElementById("app");
+    function renderTheatre(data) {
+      const theatre = data.theatre;
 
       if (!theatre) {
-        throw new Error("No theatre was found in showtimes.json");
+        throw new Error(
+          "The JSON file does not contain a theatre object"
+        );
       }
 
-      document.getElementById("theatre-name").textContent = theatre.name;
-      document.getElementById("updated-at").textContent = data.updatedAt
-        ? `Last updated: ${new Date(data.updatedAt).toLocaleString()}`
+      theatreName.textContent = theatre.name;
+
+      updatedAt.textContent = data.updatedAt
+        ? `Last updated: ${new Date(
+            data.updatedAt
+          ).toLocaleString()}`
         : "";
 
       app.replaceChildren();
 
-      const dateGroups = groupMoviesByDate(theatre.movies || []);
+      if (!data.days || data.days.length === 0) {
+        app.appendChild(
+          createElement(
+            "p",
+            "empty-state",
+            "No IMAX showtimes found."
+          )
+        );
 
-      if (dateGroups.length === 0) {
-        app.appendChild(createElement("p", "empty-state", "No IMAX showtimes found."));
         return;
       }
 
-      dateGroups.forEach(([date, entries]) => {
-        const daySection = createElement("section", "day-section");
-        const dayHeading = createElement("h2", "day-heading", formatDate(date));
-        daySection.appendChild(dayHeading);
+      data.days.forEach(day => {
+        const daySection = createElement(
+          "section",
+          "day-section"
+        );
 
-        const moviesForDay = new Map();
-        entries.forEach(entry => {
-          const key = entry.movie.title;
-          if (!moviesForDay.has(key)) moviesForDay.set(key, []);
-          moviesForDay.get(key).push(entry);
-        });
+        daySection.appendChild(
+          createElement(
+            "h2",
+            "day-heading",
+            formatDate(day.date)
+          )
+        );
 
-        const movieList = createElement("div", "movie-list");
-        moviesForDay.forEach(movieEntries => {
-          movieList.appendChild(renderMovie(movieEntries));
+        const movieList = createElement(
+          "div",
+          "movie-list"
+        );
+
+        (day.movies || []).forEach(movie => {
+          movieList.appendChild(renderMovie(movie));
         });
 
         daySection.appendChild(movieList);
@@ -160,11 +207,94 @@
       });
     }
 
-    loadShowtimes().catch(error => {
-      console.error(error);
-      document.getElementById("app").textContent =
-        "There was a problem loading the showtimes. Check the browser console.";
-    });
+    async function loadTheatre(theatre) {
+      app.replaceChildren(
+        createElement(
+          "p",
+          "empty-state",
+          "Loading showtimes..."
+        )
+      );
+
+      theatreName.textContent = "Loading theatre...";
+      updatedAt.textContent = "";
+
+      const response = await fetch(
+        `${theatre.file}?cacheBust=${Date.now()}`
+      );
+
+      if (!response.ok) {
+        throw new Error(
+          `Could not load ${theatre.file}: ${response.status}`
+        );
+      }
+
+      const data = await response.json();
+      renderTheatre(data);
+    }
+
+    function setActiveButton(selectedButton) {
+      document.querySelectorAll(".theatre-tab").forEach(button => {
+        button.classList.remove("active");
+        button.setAttribute("aria-pressed", "false");
+      });
+
+      selectedButton.classList.add("active");
+      selectedButton.setAttribute("aria-pressed", "true");
+    }
+
+    function createTheatreTabs() {
+      theatres.forEach((theatre, index) => {
+        const button = document.createElement("button");
+
+        button.type = "button";
+        button.className = "theatre-tab";
+        button.textContent = theatre.name;
+        button.setAttribute("aria-pressed", "false");
+
+        button.addEventListener("click", async () => {
+          setActiveButton(button);
+
+          try {
+            await loadTheatre(theatre);
+          } catch (error) {
+            console.error(error);
+
+            theatreName.textContent = theatre.name;
+            updatedAt.textContent = "";
+
+            app.replaceChildren(
+              createElement(
+                "p",
+                "empty-state",
+                `Could not load ${theatre.file}. Check the file path and JSON format.`
+              )
+            );
+          }
+        });
+
+        tabs.appendChild(button);
+
+        if (index === 0) {
+          setActiveButton(button);
+
+          loadTheatre(theatre).catch(error => {
+            console.error(error);
+
+            theatreName.textContent = theatre.name;
+            app.replaceChildren(
+              createElement(
+                "p",
+                "empty-state",
+                `Could not load ${theatre.file}. Check the browser console.`
+              )
+            );
+          });
+        }
+      });
+    }
+
+    createTheatreTabs();
   </script>
 </body>
 </html>

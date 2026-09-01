@@ -35,6 +35,40 @@ h1 {
   font-size: clamp(1.8rem, 4vw, 2.5rem);
 }
 
+.theatre-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 18px 0 14px;
+}
+
+.theatre-tab {
+  border: 1px solid var(--card-border);
+  border-radius: 999px;
+  padding: 8px 13px;
+  color: var(--muted-text);
+  background: var(--card-background);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: background 150ms ease, border-color 150ms ease, color 150ms ease;
+}
+
+.theatre-tab:hover,
+.theatre-tab:focus-visible {
+  border-color: var(--accent);
+  color: var(--text);
+  outline: none;
+}
+
+.theatre-tab.active {
+  border-color: var(--accent);
+  color: #fff;
+  background: var(--accent);
+}
+
 .theatre-name {
   margin: 0;
   color: var(--muted-text);
@@ -151,5 +185,9 @@ h1 {
 
   #app {
     grid-template-columns: 1fr;
+  }
+
+  .theatre-tab {
+    width: 100%;
   }
 }

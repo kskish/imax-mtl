@@ -4,5 +4,11 @@
         "slug": "scotiabank-montreal",
         "name": "Cinéma Banque Scotia Montréal",
         "file": "data/scotiabank-montreal.json"
+    },
+    {
+        "id": 9109,
+        "slug": "forum-montreal",
+        "name": "Cinéma Cineplex Forum et VIP",
+        "file": "data/forum-montreal.json"
     }
 ]

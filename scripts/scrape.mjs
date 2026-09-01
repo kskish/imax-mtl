@@ -45,7 +45,11 @@ function extractImaxMovies(theatreEntry) {
     const sessions = [];
     for (const experience of movie.experiences ?? []) {
       const experienceTypes = experience.experienceTypes ?? [];
-      if (!experienceTypes.includes("IMAX")) continue;
+      if (
+        !experienceTypes.some((type) => type.toLowerCase().includes("imax")) &&
+        !movie.name?.toLowerCase().includes("imax")
+      )
+        continue;
       const format = experienceTypes.join(" ");
       for (const session of experience.sessions ?? []) {
         if (session.isInThePast) continue;
@@ -78,10 +82,6 @@ function extractImaxMovies(theatreEntry) {
   }
   return movies;
 }
-
-
-
-
 
 async function processDate(theatreId, dateStr) {
   try {
@@ -120,13 +120,13 @@ async function scrapeTheatre(theatre, { mkdir, writeFile }) {
   });
 
   const results = await mapWithConcurrency(dateStrs, CONCURRENCY, (dateStr) =>
-    processDate(theatre.id, dateStr)
+    processDate(theatre.id, dateStr),
   );
 
   const successCount = results.filter((r) => r.ok).length;
   if (successCount === 0) {
     console.error(
-      `Every date request failed for ${theatre.name}; leaving existing data untouched.`
+      `Every date request failed for ${theatre.name}; leaving existing data untouched.`,
     );
     return false;
   }
@@ -149,7 +149,7 @@ async function scrapeTheatre(theatre, { mkdir, writeFile }) {
   await writeFile(outputPath, JSON.stringify(output, null, 2) + "\n");
 
   console.log(
-    `Wrote ${days.length} day(s) with IMAX showtimes to ${theatre.file}`
+    `Wrote ${days.length} day(s) with IMAX showtimes to ${theatre.file}`,
   );
   return true;
 }
