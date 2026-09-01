@@ -2,15 +2,14 @@ name: Scrape IMAX showtimes
 
 on:
   schedule:
-    # Fixed UTC times while Montreal is on EDT (UTC-4).
-    # Use :07 instead of :00 to reduce the chance of GitHub scheduler delays.
-    - cron: "7 13 * * *" # About 9:07 AM Montreal during EDT
-    - cron: "7 16 * * *" # About 12:07 PM Montreal during EDT
-    - cron: "7 19 * * *" # About 3:07 PM Montreal during EDT
-    - cron: "7 22 * * *" # About 6:07 PM Montreal during EDT
-    - cron: "7 1 * * *" # About 9:07 PM Montreal during EDT
-    - cron: "7 4 * * *" # About 12:07 AM Montreal during EDT
-    - cron: "35 22 * * *" # 6:35 PM Montreal during EDT
+    # Times below are UTC-4 (EDT); each drifts back ~1hr during EST (UTC-5).
+    - cron: "0 13 * * *" # ~9am ET
+    - cron: "0 16 * * *" # ~12pm ET
+    - cron: "0 19 * * *" # ~3pm ET
+    - cron: "0 22 * * *" # ~6pm ET
+    - cron: "0 1 * * *" # ~9pm ET (previous calendar day in ET)
+    - cron: "0 4 * * *" # ~12am ET
+  workflow_dispatch: {}
 
 permissions:
   contents: write
