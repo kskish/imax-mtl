@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T01:01:37.199Z",
+  "updatedAt": "2026-09-02T05:50:16.109Z",
   "theatre": {
     "id": 9109,
     "name": "Cinéma Cineplex Forum et VIP"
@@ -96,6 +96,30 @@
       "date": "2026-09-04",
       "movies": [
         {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "14:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492313&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Onslaught",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61571_320_470.jpg",
+          "runtimeMinutes": 92,
+          "sessions": [
+            {
+              "time": "22:25",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492314&a=0000000001&l=9109&m=onslaught&ss=False"
+            }
+          ]
+        },
+        {
           "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
           "runtimeMinutes": 125,
@@ -117,6 +141,30 @@
     {
       "date": "2026-09-05",
       "movies": [
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "14:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492477&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Onslaught",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61571_320_470.jpg",
+          "runtimeMinutes": 92,
+          "sessions": [
+            {
+              "time": "22:25",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492533&a=0000000001&l=9109&m=onslaught&ss=False"
+            }
+          ]
+        },
         {
           "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61852_320_470.jpg",
@@ -152,6 +200,30 @@
       "date": "2026-09-06",
       "movies": [
         {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "14:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492555&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Onslaught",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61571_320_470.jpg",
+          "runtimeMinutes": 92,
+          "sessions": [
+            {
+              "time": "22:25",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492616&a=0000000001&l=9109&m=onslaught&ss=False"
+            }
+          ]
+        },
+        {
           "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
           "runtimeMinutes": 125,
@@ -173,6 +245,30 @@
     {
       "date": "2026-09-07",
       "movies": [
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "14:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492396&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Onslaught",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61571_320_470.jpg",
+          "runtimeMinutes": 92,
+          "sessions": [
+            {
+              "time": "22:25",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492457&a=0000000001&l=9109&m=onslaught&ss=False"
+            }
+          ]
+        },
         {
           "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
@@ -196,10 +292,39 @@
       "date": "2026-09-08",
       "movies": [
         {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "15:10",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492636&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Onslaught",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61571_320_470.jpg",
+          "runtimeMinutes": 92,
+          "sessions": [
+            {
+              "time": "22:25",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492694&a=0000000001&l=9109&m=onslaught&ss=False"
+            }
+          ]
+        },
+        {
           "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
           "runtimeMinutes": 125,
           "sessions": [
+            {
+              "time": "12:20",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491638&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            },
             {
               "time": "19:00",
               "format": "IMAX",
@@ -213,6 +338,30 @@
       "date": "2026-09-09",
       "movies": [
         {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "14:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492716&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Onslaught",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61571_320_470.jpg",
+          "runtimeMinutes": 92,
+          "sessions": [
+            {
+              "time": "22:25",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492777&a=0000000001&l=9109&m=onslaught&ss=False"
+            }
+          ]
+        },
+        {
           "title": "Oasis: Don’t Look Back in Anger",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
           "runtimeMinutes": 119,
@@ -221,6 +370,64 @@
               "time": "19:00",
               "format": "IMAX",
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491629&a=0000000001&l=9109&m=oasis-dont-look-back-in-anger&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
+          "runtimeMinutes": 125,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492696&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "movies": [
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "14:55",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492799&a=0000000001&l=9109&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Onslaught",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61571_320_470.jpg",
+          "runtimeMinutes": 92,
+          "sessions": [
+            {
+              "time": "22:25",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492860&a=0000000001&l=9109&m=onslaught&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Akira Re-Release (Japanese w/e.s.t.) – The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
+          "runtimeMinutes": 125,
+          "sessions": [
+            {
+              "time": "12:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492779&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
+            },
+            {
+              "time": "19:00",
+              "format": "IMAX",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492831&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
             }
           ]
         }
