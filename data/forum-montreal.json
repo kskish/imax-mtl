@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T16:35:07.077Z",
+  "updatedAt": "2026-09-02T19:47:44.238Z",
   "theatre": {
     "id": 9109,
     "name": "Cinéma Cineplex Forum et VIP"
@@ -8,18 +8,6 @@
     {
       "date": "2026-09-02",
       "movies": [
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "14:30",
-              "format": "IMAX",
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492073&a=0000000001&l=9109&m=the-odyssey&ss=False"
-            }
-          ]
-        },
         {
           "title": "The Dog Stars",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
