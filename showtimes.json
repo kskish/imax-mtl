@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T19:47:44.284Z",
+  "updatedAt": "2026-09-02T22:39:22.890Z",
   "theatres": [
     {
       "name": "Cinéma Banque Scotia Montréal",
@@ -13,12 +13,6 @@
             "IMAX 70mm"
           ],
           "sessions": [
-            {
-              "date": "2026-09-02",
-              "startsAt": "2026-09-02T18:20",
-              "format": "IMAX 70mm",
-              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=404590&a=0000000001&l=9406&m=the-odyssey&ss=False"
-            },
             {
               "date": "2026-09-02",
               "startsAt": "2026-09-02T22:15",
