@@ -1,27 +1,10 @@
 {
-  "updatedAt": "2026-09-01T22:54:16.465Z",
+  "updatedAt": "2026-09-02T01:01:37.199Z",
   "theatre": {
     "id": 9109,
     "name": "Cinéma Cineplex Forum et VIP"
   },
   "days": [
-    {
-      "date": "2026-09-01",
-      "movies": [
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "21:30",
-              "format": "IMAX",
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492041&a=0000000001&l=9109&m=the-odyssey&ss=False"
-            }
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-09-02",
       "movies": [
