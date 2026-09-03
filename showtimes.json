@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T01:07:17.526Z",
+  "updatedAt": "2026-09-03T05:48:43.715Z",
   "theatres": [
     {
       "name": "Cinéma Banque Scotia Montréal",
@@ -442,6 +442,482 @@
               "startsAt": "2026-09-16T22:00",
               "format": "IMAX 70mm",
               "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=404685&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-17",
+              "startsAt": "2026-09-17T10:30",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406944&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-17",
+              "startsAt": "2026-09-17T14:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406945&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-17",
+              "startsAt": "2026-09-17T18:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406946&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-17",
+              "startsAt": "2026-09-17T22:15",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406982&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-18",
+              "startsAt": "2026-09-18T11:00",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406947&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-18",
+              "startsAt": "2026-09-18T14:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406949&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-18",
+              "startsAt": "2026-09-18T18:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406951&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-18",
+              "startsAt": "2026-09-18T22:40",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406954&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-19",
+              "startsAt": "2026-09-19T11:00",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406955&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-19",
+              "startsAt": "2026-09-19T14:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406956&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-19",
+              "startsAt": "2026-09-19T18:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406957&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-19",
+              "startsAt": "2026-09-19T22:40",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406958&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-20",
+              "startsAt": "2026-09-20T11:00",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406959&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-20",
+              "startsAt": "2026-09-20T14:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406983&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-20",
+              "startsAt": "2026-09-20T18:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406960&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-20",
+              "startsAt": "2026-09-20T22:40",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406961&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-21",
+              "startsAt": "2026-09-21T10:30",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406984&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-21",
+              "startsAt": "2026-09-21T14:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406962&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-21",
+              "startsAt": "2026-09-21T18:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406963&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-21",
+              "startsAt": "2026-09-21T22:15",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406964&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-22",
+              "startsAt": "2026-09-22T11:00",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406985&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-22",
+              "startsAt": "2026-09-22T14:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406965&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-22",
+              "startsAt": "2026-09-22T18:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406966&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-22",
+              "startsAt": "2026-09-22T22:40",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406967&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-23",
+              "startsAt": "2026-09-23T10:30",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406986&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-23",
+              "startsAt": "2026-09-23T14:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406968&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-23",
+              "startsAt": "2026-09-23T18:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406969&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-23",
+              "startsAt": "2026-09-23T22:15",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406970&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-24",
+              "startsAt": "2026-09-24T10:30",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406987&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-24",
+              "startsAt": "2026-09-24T14:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406971&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-24",
+              "startsAt": "2026-09-24T18:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406972&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-24",
+              "startsAt": "2026-09-24T22:15",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406973&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-25",
+              "startsAt": "2026-09-25T11:00",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406974&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-25",
+              "startsAt": "2026-09-25T14:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406976&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-25",
+              "startsAt": "2026-09-25T18:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406978&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-25",
+              "startsAt": "2026-09-25T22:40",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406981&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-26",
+              "startsAt": "2026-09-26T11:00",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406988&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-26",
+              "startsAt": "2026-09-26T14:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406989&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-26",
+              "startsAt": "2026-09-26T18:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406990&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-26",
+              "startsAt": "2026-09-26T22:40",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406991&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-27",
+              "startsAt": "2026-09-27T11:00",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406992&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-27",
+              "startsAt": "2026-09-27T14:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406993&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-27",
+              "startsAt": "2026-09-27T18:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406994&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-27",
+              "startsAt": "2026-09-27T22:40",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406995&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-28",
+              "startsAt": "2026-09-28T10:30",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406996&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-28",
+              "startsAt": "2026-09-28T14:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406997&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-28",
+              "startsAt": "2026-09-28T18:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406998&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-28",
+              "startsAt": "2026-09-28T22:15",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=406999&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-29",
+              "startsAt": "2026-09-29T11:00",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=407000&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-29",
+              "startsAt": "2026-09-29T14:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=407001&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-29",
+              "startsAt": "2026-09-29T18:45",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=407002&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-29",
+              "startsAt": "2026-09-29T22:40",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=407003&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "posterUrl": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeInMinutes": 172,
+          "format": [
+            "IMAX 70mm"
+          ],
+          "sessions": [
+            {
+              "date": "2026-09-30",
+              "startsAt": "2026-09-30T10:30",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=407004&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-30",
+              "startsAt": "2026-09-30T14:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=407005&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-30",
+              "startsAt": "2026-09-30T18:20",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=407006&a=0000000001&l=9406&m=the-odyssey&ss=False"
+            },
+            {
+              "date": "2026-09-30",
+              "startsAt": "2026-09-30T22:15",
+              "format": "IMAX 70mm",
+              "ticketingUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=407007&a=0000000001&l=9406&m=the-odyssey&ss=False"
             }
           ]
         },
