@@ -1,39 +1,10 @@
 {
-  "updatedAt": "2026-09-02T22:39:22.846Z",
+  "updatedAt": "2026-09-03T01:07:17.484Z",
   "theatre": {
     "id": 9109,
     "name": "Cinéma Cineplex Forum et VIP"
   },
   "days": [
-    {
-      "date": "2026-09-02",
-      "movies": [
-        {
-          "title": "The Dog Stars",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
-          "runtimeMinutes": 118,
-          "sessions": [
-            {
-              "time": "18:30",
-              "format": "IMAX",
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492099&a=0000000001&l=9109&m=the-dog-stars&ss=False"
-            }
-          ]
-        },
-        {
-          "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61852_320_470.jpg",
-          "runtimeMinutes": 132,
-          "sessions": [
-            {
-              "time": "21:30",
-              "format": "IMAX",
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=489388&a=0000000001&l=9109&m=imax-katy-perry-the-lifetimes-tour&ss=False"
-            }
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-09-03",
       "movies": [
