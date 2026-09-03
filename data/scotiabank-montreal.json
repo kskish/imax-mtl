@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T15:01:59.913Z",
+  "updatedAt": "2026-09-03T18:38:58.581Z",
   "theatre": {
     "id": 9406,
     "name": "Cinéma Banque Scotia Montréal"
@@ -13,11 +13,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
           "runtimeMinutes": 172,
           "sessions": [
-            {
-              "time": "14:20",
-              "format": "IMAX 70mm",
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=404593&a=0000000001&l=9406&m=the-odyssey&ss=False"
-            },
             {
               "time": "18:20",
               "format": "IMAX 70mm",
