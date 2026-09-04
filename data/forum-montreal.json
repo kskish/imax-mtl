@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T14:21:54.967Z",
+  "updatedAt": "2026-09-04T18:25:00.403Z",
   "theatre": {
     "id": 9109,
     "name": "Cinéma Cineplex Forum et VIP"
@@ -37,11 +37,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61977_320_470.jpg",
           "runtimeMinutes": 125,
           "sessions": [
-            {
-              "time": "12:00",
-              "format": "IMAX",
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=491630&a=0000000001&l=9109&m=imaxest-akira-rerelease-japanese-west-t&ss=False"
-            },
             {
               "time": "19:00",
               "format": "IMAX",
