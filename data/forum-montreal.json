@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T18:25:00.403Z",
+  "updatedAt": "2026-09-04T21:29:22.776Z",
   "theatre": {
     "id": 9109,
     "name": "Cinéma Cineplex Forum et VIP"
@@ -8,18 +8,6 @@
     {
       "date": "2026-09-04",
       "movies": [
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "14:55",
-              "format": "IMAX",
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492313&a=0000000001&l=9109&m=the-odyssey&ss=False"
-            }
-          ]
-        },
         {
           "title": "Onslaught",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61571_320_470.jpg",
@@ -70,18 +58,6 @@
               "time": "22:25",
               "format": "IMAX",
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=492533&a=0000000001&l=9109&m=onslaught&ss=False"
-            }
-          ]
-        },
-        {
-          "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61852_320_470.jpg",
-          "runtimeMinutes": 132,
-          "sessions": [
-            {
-              "time": "21:30",
-              "format": "Regular",
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=489390&a=0000000001&l=9109&m=imax-katy-perry-the-lifetimes-tour&ss=False"
             }
           ]
         },
